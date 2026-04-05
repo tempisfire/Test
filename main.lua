@@ -395,7 +395,7 @@ function library:Window(Info)
     shadow.Name = HttpService:GenerateGUID(true)
     shadow.DisplayOrder = -1
     shadow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    shadow.Parent = gethui()
+    shadow.Parent = unnamed
 
     local mainShadow = Instance.new("ImageLabel")
     mainShadow.Name = "MainShadow"
