@@ -392,10 +392,10 @@ function library:Window(Info)
     unnamed.Parent = gethui()
 
     local shadow = Instance.new("ScreenGui")
-    shadow.Name = HttpService:GenerateGUID(true)
+    shadow.Name = "Shadow"
     shadow.DisplayOrder = -1
     shadow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    shadow.Parent = unnamed
+    shadow.Parent = gethui()
 
     local mainShadow = Instance.new("ImageLabel")
     mainShadow.Name = "MainShadow"
