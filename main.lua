@@ -3,6 +3,7 @@ local library = {
     SectionsOpened = false,
     Theme = "Dark"
 }
+
 library.flags = library.Flags
 library.theme = library.Theme
 
